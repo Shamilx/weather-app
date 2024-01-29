@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Gothic';
+}
+
+#root {
+  height: 100vh;
+}
+
+#page-layout {
+  display: flex;
+  height: 100vh;
+}
+
+#page-layout:nth-child(1) {
+  flex: 1;
+}
+
+#page-layout::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url("../assets/background.jpg") center center / cover no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+

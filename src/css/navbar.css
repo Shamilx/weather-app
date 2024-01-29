@@ -1,0 +1,25 @@
+#navbar-wrapper {
+  position: fixed;
+  width: 3rem;
+  right: 0;
+  top: 0;
+}
+
+#navbar {
+  display: grid;
+  grid-template-rows: 25% 50% 25%;
+  background-color: rgba(2, 2, 15, 0.59);
+}
+
+#text {
+    width: 1px;
+}
+
+@media screen and (max-height: 400px) {
+    #navbar {
+        grid-template-rows: 50% 50%;
+    }
+    #navbar-middle {
+        display: none;
+    }
+}

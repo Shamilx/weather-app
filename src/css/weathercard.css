@@ -1,0 +1,41 @@
+#weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 0 0 0 0;
+}
+
+#weather-card {
+  min-width: 25%;
+  border-radius: 12px;
+  transition: backdrop-filter 0.4s ease-in-out, box-shadow 0.4s ease-in-out,
+    scale 0.4s ease-in-out;
+}
+
+#weather-properties {
+  justify-content: space-between;
+}
+
+.prop {
+  min-width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  #weather-card {
+    min-width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #weather-card {
+    min-width: 50%;
+  }
+}
+
+#weather-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  scale: 1.01;
+}

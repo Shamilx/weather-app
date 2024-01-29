@@ -1,0 +1,40 @@
+{} : location,current
+
+Realtime Weather Api
+
+location: 
+	name: 'STRING'
+	region: 'STRING'
+	country: 'STRING'
+	lat: float
+	lon: float
+	tz_id: 'STRING'
+	localtime_epoch: big number
+	localtime: 'year-month-day hour:minute'
+
+
+current:
+	last_updated_epoch: big number
+	last_updated: 'year-month-day hour:minute'
+	temp_c: number
+	temp_f: number
+	is_day: number(boolean)
+	condition: {
+		text: 'string' ['Sunny']
+		icon: 'string' [link based on text variable]
+		code: number
+	}
+	wind_mph: number
+	wind_kph: number
+	wind_degree: number
+	wind_dir: 'string'
+	pressure_mb: number
+	pressure_in:30.03
+	precip_mm: number
+	precip_in: number
+	humidity: number
+	cloud: number(boolean)
+	feelslike_c: number
+	feelslike_f: number
+	vis_km: number
+	vis_miles: number

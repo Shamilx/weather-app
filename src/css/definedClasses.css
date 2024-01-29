@@ -1,0 +1,177 @@
+.wfs-1 {
+  font-size: 1.1rem;
+}
+
+.wfs-2 {
+  font-size: 1.2rem;
+}
+
+.wfs-3 {
+  font-size: 1.3rem;
+}
+
+.wfs-4 {
+  font-size: 1.4rem;
+}
+
+.wfs-5 {
+  font-size: 1.5rem;
+}
+
+.wfs-09 {
+  font-size: 0.9rem;
+}
+
+.wcolor-white {
+  color: white;
+}
+
+.wflex-1 {
+  flex: 1;
+}
+
+.wdisplay-inline {
+  display: inline;
+}
+
+.wrotate-90 {
+  transform: rotate(90deg) translateX(-58.5px); /* Because the WeatherApp text is 117px */
+}
+
+.wheight-100vh {
+  height: 100vh;
+}
+
+.wnavbar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wfs-2rem {
+  font-size: 2rem;
+}
+
+.wtext-uppercase {
+  text-transform: uppercase;
+}
+
+.clickable-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.wcenter-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wmt-1 {
+  margin-top: 1rem;
+}
+
+.wmt-2 {
+  margin-top: 2rem;
+}
+
+.walign-center {
+  align-items: center;
+}
+
+.wml-auto {
+  margin-left: auto;
+}
+
+.wtx-shadow {
+  text-shadow: 0 12px 12px rgba(0, 0, 0, 0.5);
+}
+
+.wtext-center {
+  text-align: center;
+}
+
+.wdisplay-flex {
+  display: flex;
+}
+
+.wjustifycontent-center {
+  justify-content: center;
+}
+
+.wbox-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.wday-background {
+  background: rgba(54, 84, 134, 0.8);
+}
+
+.wnight-background {
+  background: rgba(15, 16, 53, 0.8);
+}
+
+.wgap-5 {
+  gap: 5px;
+}
+
+.wp-1 {
+  padding: 1rem;
+}
+
+.wopacity-80 {
+  opacity: 80%;
+}
+
+.wrfs-5 {
+  font-size: 1.5rem;
+}
+
+.wflex-wrap {
+  flex-wrap: wrap;
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.search * {
+  height: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search-input {
+  padding: 1.2rem 1.5rem;
+  width: 15rem;
+  max-width: 15rem;
+  background: rgba(2, 2, 15, 0.5);
+}
+
+.search-button {
+  width: 8rem;
+  max-width: 8rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  background: #365486;
+  padding: 0.1rem 0.3rem;
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.clickable-icon:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 700px) {
+  .wrfs-5 {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,6 @@
+
+@media screen and (max-width: 350px) {
+  .hide-me-under-350px {
+    display: none; 
+  }
+}
